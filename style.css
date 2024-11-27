@@ -6,14 +6,45 @@
     padding: unset;
     border: unset;
     box-sizing: border-box;
+    /* color: #f2f2f2; */
 
 }
+/* NO USAR MARGIN */
 
+.backgroud{
+    padding: 14px 50px;
+}
+
+.navbar{
+    padding: 30px 60px;
+}
 .navbar__nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: auto;
 }
 
 .navbar__nav__list{
     display: flex;
+    gap: 58px;
+    list-style: none;
 
+}
+.navbar__nav__button{
+    padding: 20px 30px;
+    background-color: #17261E;
+    font-weight: bold;
+}
+
+.jumbotrom{
+    display: flex;
+}
+
+.jumbotrom__title{
+    padding: 0px 60px;
+}
+.jumbotrom__title__text{
+    font-size: 56px;
+    font-weight: bold;
 }
