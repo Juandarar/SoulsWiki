@@ -9,8 +9,11 @@
 
 }
 
+.navbar__nav{
+    display: flex;
+}
 
-h1{
-    font-size: 56px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.navbar__nav__list{
+    display: flex;
+
 }
