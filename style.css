@@ -1,4 +1,4 @@
-*{
+* {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -9,42 +9,57 @@
     /* color: #f2f2f2; */
 
 }
+
 /* NO USAR MARGIN */
 
-.backgroud{
+.backgroud {
     padding: 14px 50px;
 }
 
-.navbar{
+.navbar {
     padding: 30px 60px;
 }
-.navbar__nav{
+
+.navbar__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: auto;
+    background-color: #0d0c0c1a;
 }
 
-.navbar__nav__list{
+.navbar__nav__list {
     display: flex;
     gap: 58px;
     list-style: none;
 
 }
-.navbar__nav__button{
+
+.navbar__nav__button {
     padding: 20px 30px;
     background-color: #17261E;
     font-weight: bold;
 }
 
-.jumbotrom{
+.jumbotrom {
     display: flex;
 }
 
-.jumbotrom__title{
+.jumbotrom__title {
     padding: 0px 60px;
 }
-.jumbotrom__title__text{
+
+.jumbotrom__title__text {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.jumbotrom__p {
+    padding: 10px 10px;
+
+}
+
+.jumbotrom__p__text {
     font-size: 56px;
     font-weight: bold;
 }
