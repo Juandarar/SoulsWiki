@@ -6,7 +6,7 @@
     padding: unset;
     border: unset;
     box-sizing: border-box;
-    /* color: #f2f2f2; */
+    color: #f2f2f2;
 
 }
 
@@ -14,10 +14,18 @@
 
 .backgroud {
     padding: 14px 50px;
+    background-image: url(/assets/fondo\ jumbotrom\ 1.jpg);
+    background-size: cover;
+    /* si se usa un tamaño fijo la imagen se repite */
+    background-repeat: no-repeat;
+    /*permite elegir si la imagen se repite */
+    background-position: center;
 }
 
 .navbar {
     padding: 30px 60px;
+    background-color: #0d0c0c48;
+    backdrop-filter: blur 20px;
 }
 
 .navbar__nav {
@@ -25,7 +33,7 @@
     justify-content: space-between;
     align-items: center;
     gap: auto;
-    background-color: #0d0c0c1a;
+
 }
 
 .navbar__nav__list {
@@ -52,6 +60,7 @@
 .jumbotrom__title__text {
     font-size: 56px;
     font-weight: bold;
+    line-height: 110%;
 }
 
 .jumbotrom__p {
@@ -61,5 +70,24 @@
 
 .jumbotrom__p__text {
     font-size: 56px;
+    font-weight: bold;
+    line-height: 110%;
+}
+
+.main {
+    gap: 25px;
+}
+
+.main__cont {
+    gap: 25px;
+}
+
+.main__cont__title {
+    gap: 20px;
+    padding: 21px 60px;
+}
+
+.main__cont__title__text {
+    font-size: 32px;
     font-weight: bold;
 }
