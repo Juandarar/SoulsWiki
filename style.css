@@ -10,7 +10,16 @@
 
 }
 
+body {
+    background-color: #121413;
+    overflow-x: hidden;
+}
+
 /* NO USAR MARGIN */
+
+hr {
+    border: solid 1px #fff;
+}
 
 .backgroud {
     padding: 14px 50px;
@@ -20,12 +29,17 @@
     background-repeat: no-repeat;
     /*permite elegir si la imagen se repite */
     background-position: center;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
 }
 
 .navbar {
     padding: 30px 60px;
     background-color: #0d0c0c48;
-    backdrop-filter: blur 20px;
+    backdrop-filter: blur(20px);
 }
 
 .navbar__nav {
@@ -49,11 +63,12 @@
     font-weight: bold;
 }
 
-.jumbotrom {
+.jumbotron {
     display: flex;
 }
 
-.jumbotrom__title {
+.jumbotron__title {
+    width: 50%;
     padding: 0px 60px;
 }
 
@@ -63,7 +78,8 @@
     line-height: 110%;
 }
 
-.jumbotrom__p {
+.jumbotron__p {
+    width: 50%;
     padding: 10px 10px;
 
 }
@@ -90,4 +106,24 @@
 .main__cont__title__text {
     font-size: 32px;
     font-weight: bold;
+}
+
+
+.lugares__container {
+    display: flex;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 24px;
+}
+
+.card {
+    flex-basis: 266px;
+    background-color: #101B15;
+}
+
+.lugares__container__right {
+    width: 300px;
 }
