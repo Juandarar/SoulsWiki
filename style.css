@@ -111,19 +111,95 @@ hr {
 
 .lugares__container {
     display: flex;
+    gap: 20px;
+    padding: 0 60px;
+
 }
-.card-container {
+.lugares__container__left {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    gap: 24px;
+    row-gap: 20px;
+    column-gap: 20px;
+
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     flex-basis: 266px;
     background-color: #101B15;
+    padding: 17px 25px;
+    gap: 44px;
 }
+.card__heading{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card__heading__body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
+}
+.card__heading__body__title{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 100%;
+}
+.card__heading__body__p{
+    font-size: 12px;
+    line-height: 130%; 
+    opacity: 60%;
+}
+.card__footer{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.card__footer__button{
+    background: unset;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+/* aca inician los comentarios */
 .lugares__container__right {
-    width: 300px;
+    width: 340px;
+    height: 460px;
+    display: flex;
+    gap: 18px;
+    padding: 20px 0;
+}
+.comment__container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;       
+    justify-content: space-between;
+}
+.comment{
+    display: flex;
+    height: 460px;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 15px;
+    background-color: #2E2E2E;
+    justify-content: space-between;
+}
+.comment__head{
+    display: flex;
+    gap: 5px;
+}
+.comment__head__user{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.comment__head__user__img{
+    height: 40px;
+    width: 40px;
+}
+.comment__head__user__name{
+    font-size: 17px;
 }
