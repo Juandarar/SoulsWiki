@@ -17,6 +17,10 @@ body {
 
 /* NO USAR MARGIN */
 
+.span{
+    font-size: 17px;
+}
+
 hr {
     border: solid 1px #fff;
 }
@@ -180,12 +184,15 @@ hr {
 }
 .comment{
     display: flex;
-    height: 460px;
     flex-direction: column;
-    gap: 30px;
     padding: 20px 15px;
     background-color: #2E2E2E;
-    justify-content: space-between;
+    justify-content: end;
+}
+.comment__body-head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .comment__head{
     display: flex;
@@ -202,4 +209,137 @@ hr {
 }
 .comment__head__user__name{
     font-size: 17px;
+}
+
+.comment__body{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.comment__body__quest{
+    font-size: 24px;
+    font-weight: bold;
+}
+.comment__footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 0px;
+    justify-content: end;
+}
+.comment__footer__interaction{
+    display: flex;
+    justify-content: space-between;
+}
+.comment__stars{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.comment__request{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.main__jumbotron{
+    height: 485px;
+    display: flex;
+    gap: 10px;
+    padding: 10px 150px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/section\ \(jumbotrom\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main__jumbotron__title{
+    font-size: 56px;
+    font-weight: bold;
+}
+.personajes__container{
+    display: flex;
+    gap: 5px;
+  
+    padding: 0px 60px;
+}
+.personajes__container__card{
+    display: flex;
+    flex-wrap: wrap;
+    
+    row-gap: 20px;
+    column-gap: 100px;
+
+    align-items: center;
+}
+.card__personaje{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: #101B15;
+    flex-basis: 420px;
+   
+}
+
+.card__personaje__body{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card__personaje__body__cont{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.personaje__name{
+    font-size: 24;
+    font-weight: bold;
+}
+.personaje__ubi{
+    font-size: 17px;
+}
+.personaje__desc{
+    font-size: 12px;
+    opacity: 60%;
+}
+.card__personaje__body__button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+}
+.personaje__button{
+    background: unset;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 135px 465px;
+    background-color: #2E2E2E;
+}
+.footer__title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer__title__img{
+    height: 56px;
+    width: 56px;
+}
+.footer__title__text{
+    font-size: 56px;
+    font-weight: bold;
+}
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 90;
+    list-style: none;
 }
