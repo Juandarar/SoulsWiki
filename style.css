@@ -1,0 +1,346 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: unset;
+    padding: unset;
+    border: unset;
+    box-sizing: border-box;
+    color: #f2f2f2;
+
+}
+
+body {
+    background-color: #121413;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/* NO USAR MARGIN */
+
+.span{
+    font-size: 17px;
+}
+
+hr {
+    border: solid 1px #fff;
+}
+
+.backgroud {
+    padding: 14px 50px;
+    background-image: url(/assets/fondo\ jumbotrom\ 1.jpg);
+    background-size: cover;
+    /* si se usa un tamaño fijo la imagen se repite */
+    background-repeat: no-repeat;
+    /*permite elegir si la imagen se repite */
+    background-position: center;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.navbar {
+    padding: 30px 60px;
+    background-color: #0d0c0c48;
+    backdrop-filter: blur(20px);
+}
+
+.navbar__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: auto;
+
+}
+
+.navbar__nav__list {
+    display: flex;
+    gap: 58px;
+    list-style: none;
+
+}
+
+.navbar__nav__button {
+    padding: 20px 30px;
+    background-color: #17261E;
+    font-weight: bold;
+}
+
+.jumbotron {
+    display: flex;
+}
+
+.jumbotron__title {
+    width: 50%;
+    padding: 0px 60px;
+}
+
+.jumbotrom__title__text {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 110%;
+}
+
+.jumbotron__p {
+    width: 50%;
+    padding: 10px 10px;
+
+}
+
+.jumbotrom__p__text {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 110%;
+}
+
+.main {
+    gap: 25px;
+}
+
+.main__cont {
+    gap: 25px;
+}
+
+.main__cont__title {
+    gap: 20px;
+    padding: 21px 60px;
+}
+
+.main__cont__title__text {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.lugares__container {
+    display: flex;
+    gap: 20px;
+    padding: 0 60px;
+
+}
+.lugares__container__left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    row-gap: 20px;
+    column-gap: 20px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 266px;
+    background-color: #101B15;
+    padding: 17px 25px;
+    gap: 44px;
+}
+.card__heading{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card__heading__body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.card__heading__body__title{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 100%;
+}
+.card__heading__body__p{
+    font-size: 12px;
+    line-height: 130%; 
+    opacity: 60%;
+}
+.card__footer{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.card__footer__button{
+    background: unset;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+/* aca inician los comentarios */
+.lugares__container__right {
+    width: 340px;
+    height: 460px;
+    display: flex;
+    gap: 18px;
+    padding: 20px 0;
+}
+.comment__container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;       
+    justify-content: space-between;
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    background-color: #2E2E2E;
+    justify-content: end;
+}
+.comment__body-head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.comment__head{
+    display: flex;
+    gap: 5px;
+}
+.comment__head__user{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.comment__head__user__img{
+    height: 40px;
+    width: 40px;
+}
+.comment__head__user__name{
+    font-size: 17px;
+}
+
+.comment__body{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.comment__body__quest{
+    font-size: 24px;
+    font-weight: bold;
+}
+.comment__footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 0px;
+    justify-content: end;
+}
+.comment__footer__interaction{
+    display: flex;
+    justify-content: space-between;
+}
+.comment__stars{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.comment__request{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.main__jumbotron{
+    height: 485px;
+    display: flex;
+    gap: 10px;
+    padding: 10px 150px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/section\ \(jumbotrom\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main__jumbotron__title{
+    font-size: 56px;
+    font-weight: bold;
+}
+.personajes__container{
+    display: flex;
+    gap: 5px;
+  
+    padding: 25px 60px;
+}
+.personajes__container__card{
+    display: flex;
+    flex-wrap: wrap;
+    
+    row-gap: 20px;
+    column-gap: 100px;
+
+    align-items: center;
+}
+.card__personaje{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: #101B15;
+    flex-basis: 420px;
+   
+}
+
+.card__personaje__body{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card__personaje__body__cont{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.personaje__name{
+    font-size: 24;
+    font-weight: bold;
+}
+.personaje__ubi{
+    font-size: 17px;
+}
+.personaje__desc{
+    font-size: 12px;
+    opacity: 60%;
+}
+.card__personaje__body__button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+}
+.personaje__button{
+    background: unset;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 135px 465px;
+    background-color: #2E2E2E;
+}
+.footer__title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer__title__img{
+    height: 56px;
+    width: 56px;
+}
+.footer__title__text{
+    font-size: 56px;
+    font-weight: bold;
+}
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 90;
+    list-style: none;
+}
