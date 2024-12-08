@@ -117,7 +117,7 @@ hr {
 .lugares__container {
     display: flex;
     gap: 20px;
-    padding: 0 60px;
+    padding: 30px 60px;
 
 }
 .lugares__container__left {
@@ -132,6 +132,7 @@ hr {
 .card {
     display: flex;
     flex-direction: column;
+    flex-grow: initial;
     flex-basis: 266px;
     background-color: #101B15;
     padding: 17px 25px;
